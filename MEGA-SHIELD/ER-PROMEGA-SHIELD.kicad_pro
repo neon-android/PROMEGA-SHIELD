@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.1,
+          "height": 1.1,
+          "width": 1.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -437,7 +437,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -504,20 +506,8 @@
       "Fuente 5v"
     ],
     [
-      "4fd23662-bc02-400a-9352-be1f3c09ed5b",
-      "Relvador"
-    ],
-    [
-      "0e8259b0-292b-460c-945a-11bb3aca89bc",
-      "Relvador1"
-    ],
-    [
-      "aef94730-93c3-47e2-8928-ca20750b33d8",
-      "Relvador2"
-    ],
-    [
-      "789afc0a-eb2f-4f7b-9922-dc73cde413f6",
-      "Relvador3"
+      "46810837-4278-4b7a-b269-b79a3cb83127",
+      "uln2003"
     ],
     [
       "7f0dd807-6361-4d95-957a-2fbf3542bf5f",

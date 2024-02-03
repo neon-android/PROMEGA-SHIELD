@@ -894,7 +894,7 @@
     (property "Value" "1K" (at 114.046 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 112.014 100.584 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 112.014 100.584 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.998 100.33 0)
@@ -919,7 +919,7 @@
   (symbol (lib_id "power:+12V") (at 110.998 88.138 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 312f57ee-195b-4cfd-8af4-d4fb941bcb04)
-    (property "Reference" "#PWR05" (at 110.998 91.948 0)
+    (property "Reference" "#PWR04" (at 110.998 91.948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 110.998 83.82 0)
@@ -935,7 +935,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -975,7 +975,7 @@
   (symbol (lib_id "power:GND") (at 110.998 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e62a843-6f71-4dae-b59d-c8f5ad3ca8b2)
-    (property "Reference" "#PWR07" (at 110.998 119.38 0)
+    (property "Reference" "#PWR05" (at 110.998 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.998 118.11 0)
@@ -991,7 +991,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1006,7 +1006,7 @@
     (property "Value" "1K" (at 169.926 86.868 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 170.942 90.678 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 170.942 90.678 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.196 89.662 0)
@@ -1054,7 +1054,7 @@
       )
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "J1") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
     (property "Value" "330" (at 173.482 98.298 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 171.704 94.742 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 171.704 94.742 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 95.758 0)
@@ -1187,7 +1187,7 @@
   (symbol (lib_id "power:GND") (at 147.574 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a679b2c4-4c9d-4e3d-8135-6d466c048259)
-    (property "Reference" "#PWR09" (at 147.574 118.11 0)
+    (property "Reference" "#PWR07" (at 147.574 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.574 116.84 0)
@@ -1203,7 +1203,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1215,7 +1215,7 @@
     (property "Reference" "2596-ADJ1" (at 147.574 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM2596S-5" (at 147.574 91.44 0)
+    (property "Value" "REGULADOR ADJ" (at 147.574 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3" (at 148.844 105.41 0)
@@ -1246,7 +1246,7 @@
   (symbol (lib_id "power:+5V") (at 188.722 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid add1407e-746a-45b4-9019-729a6daf7be0)
-    (property "Reference" "#PWR012" (at 184.912 101.6 0)
+    (property "Reference" "#PWR010" (at 184.912 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 193.04 101.6 90)
@@ -1262,7 +1262,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1271,7 +1271,7 @@
   (symbol (lib_id "power:GND") (at 125.984 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c02aa6d0-0f36-4770-8b67-4371a1c012dd)
-    (property "Reference" "#PWR08" (at 125.984 114.3 0)
+    (property "Reference" "#PWR06" (at 125.984 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.984 113.03 0)
@@ -1287,7 +1287,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
   (symbol (lib_id "power:GND") (at 103.378 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2f45a7b-b4aa-407d-8d3a-a986a8a16f25)
-    (property "Reference" "#PWR06" (at 103.378 114.3 0)
+    (property "Reference" "#PWR03" (at 103.378 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 103.378 113.03 0)
@@ -1312,7 +1312,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1321,7 +1321,7 @@
   (symbol (lib_id "power:GND") (at 164.084 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df1f7178-f334-481e-81aa-466787591b59)
-    (property "Reference" "#PWR010" (at 164.084 119.38 0)
+    (property "Reference" "#PWR08" (at 164.084 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.084 118.11 0)
@@ -1337,7 +1337,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1377,7 +1377,7 @@
   (symbol (lib_id "power:GND") (at 183.134 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaac41bf-9d54-43b6-bfb4-b3c5755f9c50)
-    (property "Reference" "#PWR011" (at 183.134 119.38 0)
+    (property "Reference" "#PWR09" (at 183.134 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 183.134 118.11 0)
@@ -1393,7 +1393,7 @@
     (instances
       (project "ER-PROMEGA-SHIELD"
         (path "/8147067b-5845-4831-8ba1-364ec5fe594c/5356d373-8a97-48f5-aa7a-74c7e25ebf78"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
