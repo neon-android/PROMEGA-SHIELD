@@ -1,6 +1,10 @@
 {
   "board": {
+<<<<<<< HEAD
+    "active_layer": 37,
+=======
     "active_layer": 0,
+>>>>>>> e4c6784b296ce409579cb54ba1d1e82172390f6e
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
