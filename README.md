@@ -1,1 +1,1 @@
-![image](https://github.com/neon-android/PROMEGA-SHIELD/assets/123397062/07efd3c0-2572-4006-9db8-91dbc6ac499e)
+![imagen](https://github.com/victorproye/PROMEGA-SHIELD/assets/123497594/ed4f94f1-5a5a-4fd2-9445-ac26ae895668)
